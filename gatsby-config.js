@@ -21,5 +21,11 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-svgr',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/svg/icon.svg`
+      }
+    }
   ],
 }
