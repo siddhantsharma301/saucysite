@@ -5,5 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Siddhant's Personal Flex-site`,
+    author: {
+      name: `Siddhant Sharma`,
+    },
+    description: `Sid's personal website`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    social: {
+      github: `siddhantsharma301`,
+      linkedin: `siddhant-sharma-b24a531a0`,
+      twitter: `clearlynotsid`,
+      instagram: `clearly_not_sid`,
+    },
+  },
+  plugins: [
+    'gatsby-plugin-svgr',
+  ],
 }

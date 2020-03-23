@@ -1,0 +1,20 @@
+h1 {
+    color: #b3b2a9;
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+    margin: 11rem 3rem 2rem 3rem;
+    text-align: center;
+}
+
+p {
+    color: #94938a;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    margin: 1rem 3rem;
+    text-align: center;
+}
+
+.github-icon svg{
+    height: 100px;
+    width: 100px;
+}
