@@ -92,7 +92,7 @@ p.intro {
 .water-icon svg {
     width: 30rem;
     height: auto;
-    margin: 13rem 1rem 11rem 9rem;
+    margin: 5rem 1rem 11rem 9rem;
 }
 
 h2 {
@@ -100,6 +100,7 @@ h2 {
     font-family: "Helvetica Neue";
     font-size: 2.5rem;
     text-align: left;
+    padding-top: 3rem;
 }
 
 p.description {
