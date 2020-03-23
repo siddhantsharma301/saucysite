@@ -35,7 +35,7 @@ export default ({ data }) => <>
     <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
         <Twitter/>
     </a>  
-    <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.github}>
+    <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram}>
         <Instagram/> 
     </a>
 </> 
