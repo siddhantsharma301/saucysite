@@ -26,18 +26,21 @@ export default ({ data }) => <>
     <h1>Siddhant Sharma</h1>
     <p>A high school senior from the East Bay.</p>
     <p>Loves making cool, useful things.</p>
-    <a className="github-icon" href={'https://github.com/' + data.site.siteMetadata.social.github}>
-        <GitHub/> 
-    </a>
-    <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
-        <LinkedIn/>
-    </a> 
-    <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
-        <Twitter/>
-    </a>  
-    <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram}>
-        <Instagram/> 
-    </a>
+
+    <div className="social">
+      <a className="github-icon" href={'https://github.com/' + data.site.siteMetadata.social.github}>
+          <GitHub/> 
+      </a>
+      <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
+          <LinkedIn/>
+      </a> 
+      <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
+          <Twitter/>
+      </a>  
+      <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram}>
+          <Instagram/> 
+      </a>
+    </div>
 </> 
 
 
