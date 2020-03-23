@@ -12,13 +12,14 @@ body {
 h1 {
     color: #54a1ff; 
     font-family: "Helvetica Neue";
+    font-style: italic;
     font-size: 6.5rem;
     font-weight: 800;
     margin: 11rem 3rem 2.5rem 3rem;
     text-align: center;
 }
 
-p {
+p.intro {
     color: #a0aec0;
     font-family: "Helvetica Neue";
     font-size: 2rem;
@@ -73,6 +74,39 @@ p {
     justify-content: center;
     align-items: center; */
     text-align: center;
+}
+
+.row {
+    display:flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 1rem 11rem 0em 1rem;
+}
+
+/* .water-icon svg path {
+    fill: #54a1ff;
+} */
+
+.water-icon svg {
+    width: 30rem;
+    height: auto;
+    margin: 13rem 1rem 11rem 9rem;
+}
+
+h2 {
+    color: #54a1ff;
+    font-family: "Helvetica Neue";
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+p.description {
+    color: #a0aec0;
+    font-family: "Helvetica Neue";
+    font-size: 1.25rem;
+    line-height: 2.25rem;
 }
 
 /* #b34950; */
