@@ -28,12 +28,12 @@ export default ({ data }) => <>
     <p>Loves making cool, useful things.</p>
 
     <div className="social">
+    <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
+          <LinkedIn/>
+      </a> 
       <a className="github-icon" href={'https://github.com/' + data.site.siteMetadata.social.github}>
           <GitHub/> 
       </a>
-      <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
-          <LinkedIn/>
-      </a> 
       <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
           <Twitter/>
       </a>  
