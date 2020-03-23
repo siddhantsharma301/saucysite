@@ -14,7 +14,38 @@ p {
     text-align: center;
 }
 
-.github-icon svg{
-    height: 100px;
-    width: 100px;
+.github-icon svg path {
+    fill: #b34950;
 }
+
+.github-icon svg {
+    width: 3%;
+    height: auto;
+}
+
+.linkedin-icon svg path {
+    fill: #b34950;
+}
+
+.linkedin-icon svg {
+    width: 100%;
+    height: auto;
+}
+
+.twitter-icon svg path {
+    fill: #b34950;
+}
+
+.twitter-icon svg {
+    width: 100%;
+    height: auto;
+}
+
+/* .instagram-icon svg path {
+    fill: #b34950;
+}
+
+.linkedin-icon svg {
+    width: 100%; 
+    height: auto;
+} */
