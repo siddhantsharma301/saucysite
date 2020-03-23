@@ -5,6 +5,7 @@ import "../styles/index.css"
 import { ReactComponent as GitHub } from "../svg/github.svg";
 import { ReactComponent as LinkedIn } from "../svg/linkedin.svg";
 import { ReactComponent as Twitter } from "../svg/twitter.svg";
+import { ReactComponent as Instagram } from "../svg/instagram.svg"
 
 export const query = graphql`
 query  {
@@ -30,13 +31,13 @@ export default ({ data }) => <>
     </a>
     <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
         <LinkedIn/>
-    </a>
+    </a> 
     <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
         <Twitter/>
-    </a>    
+    </a>  
+    <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.github}>
+        <Instagram/> 
+    </a>
 </> 
 
 
-// <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram}>
-// <Instagram/> 
-// </a>
