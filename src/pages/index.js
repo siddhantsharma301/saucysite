@@ -25,7 +25,7 @@ query  {
 
 export default ({ data }) => <>
     <h1>Siddhant Sharma</h1>
-    <p className="intro">A high school senior from the East Bay.</p>
+    <p className="intro">A high school senior from the East Bay, California.</p>
     <p className="intro">Loves making cool, useful things.</p>
 
     <div className="social">
