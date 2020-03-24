@@ -82,7 +82,7 @@ p.intro {
 
 .column {
     flex: 50%;
-    padding: 1rem 11rem 0em 0.25rem;
+    padding: 1rem 11rem 0em 0.05rem;
 }
 
 /* .water-icon svg path {
@@ -106,7 +106,7 @@ h2 {
 p.description {
     color: #a0aec0;
     font-family: "Helvetica Neue";
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 2.25rem;
 }
 
