@@ -29,16 +29,16 @@ export default ({ data }) => <>
     <p className="intro">Loves making cool, useful things.</p>
 
     <div className="social">
-    <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin}>
+    <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin} target="_blank">
           <LinkedIn/>
       </a> 
-      <a className="github-icon" href={'https://github.com/' + data.site.siteMetadata.social.github}>
+      <a className="github-icon" href={'https://github.com/' + data.site.siteMetadata.social.github} target="_blank">
           <GitHub/> 
       </a>
-      <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter}>
+      <a className="twitter-icon" href={'https://twitter.com/' + data.site.siteMetadata.social.twitter} target="_blank">
           <Twitter/>
       </a>  
-      <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram}>
+      <a className="instagram-icon" href={'https://instagram.com/' + data.site.siteMetadata.social.instagram} target="_blank">
           <Instagram/> 
       </a>
     </div>
