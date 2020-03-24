@@ -15,7 +15,7 @@ h1 {
     font-style: italic;
     font-size: 6.5rem;
     font-weight: 800;
-    margin: 11rem 3rem 2.5rem 3rem;
+    margin: 9rem 3rem 2.5rem 3rem;
     text-align: center;
 }
 
@@ -25,6 +25,7 @@ p.intro {
     font-size: 2rem;
     margin: 1.25rem 3rem;
     text-align: center;
+    line-height: 3rem;
 }
 
 .github-icon svg path {
@@ -107,7 +108,7 @@ p.description {
     color: #a0aec0;
     font-family: "Helvetica Neue";
     font-size: 1.5rem;
-    line-height: 2.25rem;
+    line-height: 3rem;
 }
 
 /* #b34950; */
