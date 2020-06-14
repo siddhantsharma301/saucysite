@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "siddhant-sharma-personal-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Siddhant Sharma's personal website (testing)",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@svgr/webpack": "^5.4.0",
     "gatsby": "^2.19.45",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-svgr": "^2.0.2",
