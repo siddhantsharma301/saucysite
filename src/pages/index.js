@@ -25,8 +25,6 @@ query  {
 
 export default ({ data }) => <>
     <h1>Siddhant Sharma</h1>
-    <p className="intro">A high school senior from the East Bay, California.</p>
-    <p className="intro">Loves making cool, useful things.</p>
 
     <div className="social">
     <a className="linkedin-icon" href={'https://linkedin.com/in/' + data.site.siteMetadata.social.linkedin} target="_blank" rel="noopener noreferrer">
@@ -43,15 +41,15 @@ export default ({ data }) => <>
       </a>
     </div>
 
-  <div className="row">
-    <div className="column">
-      <a className="water-icon">
-        <Water/>
-      </a>
+    <div class="container">
+      <div>
+        <a className="water-icon">
+          <Water/>
+        </a>
+      </div>
+      <div>
+        <h2 className="about-me">About Me</h2>
+        <p className="description">I'm a freshman at the University of California, Berkeley, studying electrical engineering and computer science. I love making cool, useful things in fields such as computer vision and prototyping. From data analysis to breadboarding with a Raspberry Pi, I'm always on the look out for problems to solve using tech.</p>
+      </div>
     </div>
-    <div className="column">
-      <h2>About Me</h2>
-      <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus aliquet mauris, in vehicula dui rhoncus sed. Donec at pharetra enim. Donec ac tincidunt purus. Nam fermentum rhoncus vestibulum. </p>
-    </div>
-  </div>
 </> 

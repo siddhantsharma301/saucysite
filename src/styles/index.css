@@ -77,6 +77,14 @@ p.intro {
     text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+/* 
 .row {
     display:flex;
 }
@@ -86,9 +94,10 @@ p.intro {
     padding: 1rem 11rem 0em 0rem;
 }
 
-/* .water-icon svg path {
+.water-icon svg path {
     fill: #54a1ff;
-} */
+} 
+*/
 
 .water-icon svg {
     width: 30rem;
@@ -96,12 +105,14 @@ p.intro {
     margin: 7rem 0rem 11rem 9rem;
 }
 
-h2 {
+h2.about-me {
     color: #54a1ff;
     font-family: "Helvetica Neue";
+    font-style: italic;
     font-size: 2.5rem;
     text-align: left;
     padding-top: 5rem;
+    padding-left: 3rem;
 }
 
 p.description {
@@ -109,6 +120,8 @@ p.description {
     font-family: "Helvetica Neue";
     font-size: 1.5rem;
     line-height: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 /* #b34950; */
